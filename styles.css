@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #2980b9, #6dd5fa);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+p {
+    font-size: 20px;
+    color: #eee;
+    margin-top: 10px;
+}
+
+.hobbies h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies li {
+    font-size: 24px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.hobbies li i {
+    margin-right: 10px;
+    color: #ffdd59;
+}
+
+.hobbies li:hover {
+    transform: scale(1.1);
+    color: #ffdd59;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #ccc;
+}
